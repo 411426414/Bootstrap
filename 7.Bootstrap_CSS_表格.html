@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>表格</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>表格</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
+    <div class="container table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>class名(类名)</th>
+                    <th>标签</th>
+                    <th>说明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>table-striped</td>
+                    <td>&lt;tbody&gt;</td>
+                    <td>类可以给&lt;tbody&gt;之内的每一行增加斑马条纹样式。</td>
+                </tr>
+                <tr>
+                    <td>table-bordered</td>
+                    <td>&lt;tbody&gt;</td>
+                    <td>类为表格和其中的每个单元格增加边框。</td>
+                </tr>
+                <tr>
+                    <td>table-hover</td>
+                    <td>&lt;tbody&gt;</td>
+                    <td>类可以让&lt;tbody&gt;中的每一行对鼠标悬停状态作出响应。</td>
+                </tr>
+                <tr>
+                    <td>table-condensed</td>
+                    <td>&lt;tbody&gt;</td>
+                    <td>类可以让表格更加紧凑，单元格中的内补(padding)均会减半。</td>
+                </tr>
+                <tr class="active">
+                    <td>active</td>
+                    <td>&lt;tr&gt;&lt;td&gt;</td>
+                    <td>鼠标悬停在行或单元格上时所设置的颜色</td>
+                </tr>
+                <tr class="success">
+                    <td>success</td>
+                    <td>&lt;tr&gt;&lt;td&gt;</td>
+                    <td>标识成功或积极的动作</td>
+                </tr>
+                <tr class="info">
+                    <td>info</td>
+                    <td>&lt;tr&gt;&lt;td&gt;</td>
+                    <td>标识普通的提示信息或动作</td>
+                </tr>
+                <tr class="warning">
+                    <td>warning</td>
+                    <td>&lt;tr&gt;&lt;td&gt;</td>
+                    <td>标识警告或需要用户注意</td>
+                </tr>
+                <tr class="danger">
+                    <td>danger</td>
+                    <td>&lt;tr&gt;&lt;td&gt;</td>
+                    <td>标识危险或潜在的带来负面影响的动作</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <div class="container">
         <!-- 
             .table-striped 类可以给 <tbody> 之内的每一行增加斑马条纹样式。
@@ -53,4 +113,5 @@
         </table>
     </div>
 </body>
+
 </html>
