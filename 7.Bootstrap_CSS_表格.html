@@ -9,7 +9,13 @@
 </head>
 <body>
     <div class="container">
-        <table class="table table-striped table-bordered table-hover table-condensed">
+        <!-- 
+            .table-striped 类可以给 <tbody> 之内的每一行增加斑马条纹样式。
+            .table-bordered 类为表格和其中的每个单元格增加边框。
+            .table-hover 类可以让 <tbody> 中的每一行对鼠标悬停状态作出响应。
+            .table-condensed 类可以让表格更加紧凑，单元格中的内补（padding）均会减半。
+         -->
+        <table class="table table-bordered table-hover table-condensed">
             <thead>
                 <tr>
                     <th>表格标题</th>
@@ -18,6 +24,11 @@
                 </tr>
             </thead>
             <tbody>
+                <tr class="active">
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                    <td>表格单元格</td>
+                </tr>
                 <tr>
                     <td>表格单元格</td>
                     <td>表格单元格</td>
