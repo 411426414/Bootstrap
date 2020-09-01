@@ -11,55 +11,57 @@
 
 <body>
     <div class="container">
-
         <form role='form'>
-            <input type="text" class="form-control">
-
-            <textarea class="form-control" rows="5"></textarea>
-
-            <div class="checkbox">
-                <label for="">
-                    <input type="checkbox">吃橘子
-                </label>
+            <div class="col-md-3">
+                <input type="text" class="form-control">
             </div>
-            <div class="checkbox">
-                <label for="">
-                    <input type="checkbox">吃苹果
-                </label>
+            <div class="col-md-3">
+                <textarea class="form-control" rows="5"></textarea>
             </div>
-
-            <div class="radio">
-                <label for="">
-                    <input type="radio" name="sex">男
-                </label>
+            <div class="col-md-3">
+                <div class="checkbox">
+                    <label for="">
+                        <input type="checkbox">吃橘子
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label for="">
+                        <input type="checkbox">吃苹果
+                    </label>
+                </div>
             </div>
-            <div class="radio">
-                <label for="">
-                    <input type="radio" name="sex">女
-                </label>
+            <div class="col-md-3">
+                <div class="radio">
+                    <label for="">
+                        <input type="radio" name="sex">男
+                    </label>
+                </div>
+                <div class="radio">
+                    <label for="">
+                        <input type="radio" name="sex">女
+                    </label>
+                </div>
             </div>
-
-            <select class="form-control">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-            </select>
-
-            <select multiple class="form-control">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-            </select>
-
+            <div class="col-md-3">
+                <select class="form-control">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select multiple class="form-control">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+            </div>
             <p class="form-control-static">请按照我的格式输入：411426414@qq.cim</p>
-
             <input type="text" class="form-control" placeholder='禁用' disabled>
-
             <input type="text" class="form-control" placeholder='禁用' readonly>
         </form>
-
         <hr />
 
         <form role='form' class="form-horizontal">
@@ -91,19 +93,15 @@
                 </div>
             </div>
         </form>
-
         <hr />
-        
-        <form role='form'>
+
+        <form role='form' class="col-md-6">
             <div class="form-group has-error has-feedback">
                 <label for="">邮箱：</label>
                 <input type="email" class='form-control' placeholder="请输入邮箱">
                 <span class="glyphicon glyphicon-ok form-control-feedback"></span>
             </div>
         </form>
-
-        <hr />
-
         <form role='form' class="form-inline">
             <div class="form-group">
                 <label for="" class="sr-only">邮箱：</label>
@@ -119,7 +117,6 @@
                 <p class="help-block">选择你需要的文件</p>
             </div>
         </form>
-
         <hr />
 
     </div>
