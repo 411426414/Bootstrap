@@ -29,3 +29,5 @@
 # [15.导航条的使用](https://411426414.github.io/Bootstrap/15.导航条的使用.html)
 
 # [16.分页](https://411426414.github.io/Bootstrap/16.分页.html)
+
+# [17.面板组件](https://411426414.github.io/Bootstrap/17.面板组件.html)
