@@ -31,3 +31,5 @@
 # [16.分页](https://411426414.github.io/Bootstrap/16.分页.html)
 
 # [17.面板组件](https://411426414.github.io/Bootstrap/17.面板组件.html)
+
+# [18.Well组件的使用](https://411426414.github.io/Bootstrap/18.Well组件的使用.html)
