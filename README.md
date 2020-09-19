@@ -37,3 +37,5 @@
 # [19.分页和标签](https://411426414.github.io/Bootstrap/19.分页和标签.html)
 
 # [20.徽章与巨幕](https://411426414.github.io/Bootstrap/20.徽章与巨幕.html)
+
+# [21.页头与缩略图](https://411426414.github.io/Bootstrap/21.页头与缩略图.html)
